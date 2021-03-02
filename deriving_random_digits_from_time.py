@@ -1,6 +1,10 @@
 # Attempt to derive random digits from time.time() 
 # First uploaded on 2021-3-2 # (MIT license) 
 # Kenneth Burchfiel
+# Note: The numbers created by this program are
+# likely not truly random! I do not recommend 
+# using it for any tasks that require high-quality
+# random number generation.
 
 import time
 import math
